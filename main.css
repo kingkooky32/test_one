@@ -1,0 +1,144 @@
+/********************CSS Start***********************/
+body{
+	font-family: sans-serif;
+	margin: 10px;
+	background-color:white;
+
+}
+/********************Nav bar CSS Start***********************/
+nav.nav-bar{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 120px;
+	margin:-6px 0px 15px 0px;
+}
+nav.nav-bar>.nav-title{
+	text-align: center;
+	height: 25%;
+	width: 50%;
+	text-align: left;
+	padding: 2px;
+	font-size: 25px;
+}
+nav.nav-bar>.nav-description{
+	text-align: left;
+	font-size: 13px;
+	font-style: italic;
+	color: #424242;
+	margin: 1px 0px 1px 0px;
+	height: 50%;
+	width: 60%;
+}
+nav.nav-bar>.nav-menu{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 20%;
+	margin: 1px 0px 0px 0px;
+}
+nav.nav-bar>.nav-menu > div{
+	width: 16%;
+	font-size: 12px;
+	text-align:center;
+	color: #424242;
+}
+/********************Nav bar CSS Stop***********************/
+
+/********************Main Section CSS Start***********************/
+section.main-section{
+	display: flex;
+	
+}
+/********************Blog Posts CSS Start***********************/
+section.main-section>.main-content{
+	height: 500px;
+	width: 90%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: #e0e0e0;
+}
+section.main-section>.main-content>.post-main{
+	margin-top: 5px;
+	background-color: #86C232;
+	display: flex;
+	flex-direction: row;
+	height: 20%;
+}
+section.main-section>.main-content>.post-main>.post-image{
+	width: 140px;
+	background-color:#e0e0e0 ;
+	margin: 5px 5px;
+	padding: 5px;
+	margin-right: 10px;
+}
+section.main-section>.main-content>.post-main>.post-content{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	margin: 5px 5px;
+}
+section.main-section>.main-content>.post-main>.post-content>.post-topbar{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 30%
+}
+section.main-section>.main-content>.post-main>.post-content>.post-topbar>.post-author{
+	width: 40%;
+	background-color: #e0e0e0;
+	margin: 2px;
+}
+section.main-section>.main-content>.post-main>.post-content>.post-topbar>.post-date{
+	width: 40%;
+	background-color: #e0e0e0;
+	margin: 2px;
+}
+section.main-section>.main-content>.post-main>.post-content>.post-text{
+	height: 70%;
+	background-color: #e0e0e0;
+	margin: 2px;
+}
+/********************Blog Post CSS Stop***********************/
+/********************Side bar CSS Start***********************/
+aside.side-bar{
+	height: 514px;
+	width: 20%;
+	margin-left: 10px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;	
+	
+}
+aside.side-bar > div{
+	flex-basis: 250px;
+	margin-bottom:10px;
+	background-color: #86C232
+}
+aside.side-bar>.widget-main{
+	display: flex;
+	flex-direction: column;
+	padding: 5px;
+}
+aside.side-bar>.widget-main> div{
+
+}
+aside.side-bar>.widget-main>.widget-title{
+	height: 20%;
+	margin-bottom: 5px;
+	background-color:#e0e0e0; 
+}
+aside.side-bar>.widget-main>.widget-content{
+	height: 80%;
+	background-color: #e0e0e0;
+}
+/********************Side bar CSS Stop***********************/
+article.main-post-main{
+	background-color: #86C232;
+}
+article.main-title{
+	background-color: #e0e0e0;
+}
+/********************Mian Section CSS Stop***********************/
+/********************CSS Stop***********************/
